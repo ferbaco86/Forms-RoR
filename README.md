@@ -1,24 +1,62 @@
-# README
+# Forms Rails Helper
+Rails application built to practice working with Views and Forms
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![image](https://user-images.githubusercontent.com/33432289/83688031-578f6b00-a5b2-11ea-9f06-ad139d12cfc8.png)
 
-Things you may want to cover:
 
-* Ruby version
+## Built With
 
-* System dependencies
+- Ruby 2.7.1
 
-* Configuration
+- Ruby on Rails 5.2.3
 
-* Database creation
+## Getting Started
 
-* Database initialization
+- Clone the repository
 
-* How to run the test suite
+- Navigate to the cloned repository folder
 
-* Services (job queues, cache servers, search engines, etc.)
+- Run ```Bundle install```
 
-* Deployment instructions
+- Run ```bin/rake db:migrate```
 
-* ...
+- On your browser enter this URL ```localhost:3000/users/new```
+
+- Create some users!
+
+- You can edit your user putting the ID on the URL ```localhost:3000/users/1/edit```
+
+### Prerequisites
+
+- Ruby 2.7.1
+
+- Ruby on Rails 5.2.3
+
+## Authors
+
+👤 **Roberto Perez Jimenez**
+
+- Github: [@LoboArkano](https://github.com/LoboArkano)
+- Twitter: [@LoboArcano92](https://twitter.com/LoboArcano92)
+- Linkedin: [linkedin](https://www.linkedin.com/in/jose-roberto-perez-jimenez/)
+
+👤 **Fernando Bahamondes**
+
+- Github: [@ferbaco86](https://github.com/ferbaco86)
+- Twitter: [@ferbac0](https://twitter.com/ferbac0)
+- Linkedin: [linkedin](https://www.linkedin.com/in/fernando-bahamondes-correa)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/ferbaco86/Forms-RoR/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+ 
+## 📝 License
+
+This project is MIT licensed.
+
