@@ -1,7 +1,7 @@
 # Forms Rails Helper
 Rails application built to practice working with Views and Forms
 
-![image](https://user-images.githubusercontent.com/33432289/83688031-578f6b00-a5b2-11ea-9f06-ad139d12cfc8.png)
+![image](https://user-images.githubusercontent.com/33432289/83689109-18fab000-a5b4-11ea-83e2-4fed7c0be272.png)
 
 
 ## Built With
