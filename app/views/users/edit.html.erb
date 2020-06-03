@@ -12,7 +12,7 @@
 
 <% if @user_temp.errors.any? %>
   <div id="error_explanation">
-    <h2><%= pluralize(@user_temp.errors.count, "error") %> prohibited this article from being saved:</h2>
+    <h2><%= pluralize(@user_temp.errors.count, "error") %> prohibited this user from being saved:</h2>
  
     <ul>
     <% @user_temp.errors.full_messages.each do |msg| %>
