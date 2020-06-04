@@ -16,16 +16,13 @@ class UsersController < ApplicationController
 
   def edit
     @user = User.find(params[:id])
-    @user_temp = User.new
   end
 
   def update
     @user = User.find(params[:id])
-    @user_temp = User.new(user_params)
 
-    if @user_temp.valid?
-      @user.update(user_params)
-      redirect_to new_user_path
+    if @user.update(user_params)
+      redirect_to edit_user_path
     else
       render :edit
     end
