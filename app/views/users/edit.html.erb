@@ -1,0 +1,22 @@
+
+<%= form_for @user do |f|%>
+  <%= f.label :username, "Username:"%>
+  <%= f.text_field :username, value: "u3" %><br><br>
+  <%= f.label :password, "Password:"%>
+  <%= f.password_field :password%><br><br>
+  <%= f.label :email, "Email:"%>
+  <%= f.email_field :email, placeholder: "example@example.com"%><br><br>
+
+  <%= f.submit "Update"%>
+<%end%>
+
+<% if @user.errors.any? %>
+  <div id="error_explanation">
+    <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
+    <ul>
+        <% @user.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+    </ul>  
+  </div>
+<% end %>
